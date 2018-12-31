@@ -29,6 +29,12 @@
 
 \nobibliography*
 
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
 %%% End preamble %%%
 
 
@@ -50,6 +56,8 @@
 University of California, Davis & \\
 Department of Evolution and Ecology & \\
 {\href{mailto:mgbontrager@ucdavis.edu}{mgbontrager@ucdavis.edu}} & \\
+{\href{https://github.com/meganbontrager}{github.com/meganbontrager}} & \\
+
 % Department of Evolution and Ecology & {\href{www.zoology.ubc.ca/$\sim$bontrag/home/}{www.zoology.ubc.ca/$\sim$bontrag/home/}} \\
 \end{tabular}
 \vspace{1em}
@@ -72,7 +80,7 @@ Department of Evolution and Ecology & \\
 
 %%% Academic positions %%%
 
-\noindent \begin{tabular}{@{} p{3cm} p{11.21cm} >{\raggedleft\arraybackslash}p{1.7cm}}
+\noindent \begin{tabular}{@{} p{3cm} p{10.91cm} >{\raggedleft\arraybackslash}p{1.7cm}}
 \Large{Academic}    & \textbf{University of California, Davis} & 2018--\hspace*{0.8cm} \\
 \Large{positions}   & Postdoctoral researcher & \\
 & \raggedright{Faculty advisors: Sharon Strauss, Jennifer Gremer, Johanna Schmitt} & \\
@@ -82,7 +90,7 @@ Department of Evolution and Ecology & \\
 
 %%% Education %%%
 
-\noindent \begin{tabular}{@{} p{3cm} p{11.21cm} >{\raggedleft\arraybackslash}p{1.7cm}}
+\noindent \begin{tabular}{@{} p{3cm} p{10.91cm} >{\raggedleft\arraybackslash}p{1.7cm}}
 \Large{Education}    & \textbf{University of British Columbia} & 2012--2018 \\
 & Ph.D.\ in Botany & \\
 & \raggedright{Title: \textit{Pollination, genetic structure, and adaptation to climate across the geographic range of} Clarkia pulchella.} & \\
@@ -99,17 +107,20 @@ Department of Evolution and Ecology & \\
 \end{tabular}
 \bigskip
 
-%%% Preprints %%%
 
-\noindent\Large{Preprints} 
-\normalsize
-\bigskip
+%%% In prep %%%
 
 \bgroup
+\noindent\Large{Manuscripts in prep} 
+\normalsize
+\noindent(available upon request)
+\bigskip
+
 \def\arraystretch{1.2}
 \noindent \begin{tabular}{@{} p{1cm} >{\raggedright\arraybackslash}p{15.11cm}}
-2. & \textbf{M. Bontrager} and A. L. Angert (2018). Genetic differentiation is determined by geographic distance in \textit{Clarkia pulchella}. bioR$\chi$iv 374454. \\
-1. & \textbf{M. Bontrager}, C. D. Muir, and A. L. Angert (2018). Geographic and climatic drivers of reproductive assurance in \textit{Clarkia pulchella}. bioR$\chi$iv 372375.\\
+(12.) & \textbf{M. Bontrager}, J. A. Lee-Yaw, T. Usui, A. L. Hargreaves, D. Anstett, H. A. Branch, and A. L. Angert. Local advantage is greater near climatic niche margins but not geogrphic range margins. Expected submission in May 2019. \\
+(11.) & \textbf{M. Bontrager}, C. D. Muir, C. Mahony, D. E. Gamble, R. M. Germain, A. L. Hargreaves, E. J. Kleynhans, K. A. Thompson, and A. L. Angert. Climate anomalies are disrupting local adaptation. Plan to submit to Science, February 2019. \\
+(10.) & A. L. Hargreaves, R. M. Germain, \textbf{M. Bontrager}, J. Persi, and A. L. Angert. Biotic interactions affect fitness but not local adaptation among populations. Plan to submit to The American Naturalist, January 2019.\\
 \end{tabular}
 % \begin{enumerate}[leftmargin=0.5cm,itemindent=.5cm,labelwidth=\itemindent,labelsep=0cm,align=left,itemsep = 0cm]
 % \item \hangbibentry{bontrager2018genetic}
@@ -118,22 +129,40 @@ Department of Evolution and Ecology & \\
 \egroup
 \bigskip
 
-\newpage
+
+%%% Preprints %%%
+
+\bgroup
+\noindent\Large{Preprints} 
+\normalsize
+\bigskip
+
+\def\arraystretch{1.2}
+\noindent \begin{tabular}{@{} p{1cm} >{\raggedright\arraybackslash}p{15.11cm}}
+9. & \textbf{M. Bontrager} and A. L. Angert (2018). Genetic differentiation is determined by geographic distance in \textit{Clarkia pulchella}. bioR$\chi$iv 374454. \\
+8. & \textbf{M. Bontrager}, C. D. Muir, and A. L. Angert (2018). Geographic and climatic drivers of reproductive assurance in \textit{Clarkia pulchella}. bioR$\chi$iv 372375. \\
+\end{tabular}
+% \begin{enumerate}[leftmargin=0.5cm,itemindent=.5cm,labelwidth=\itemindent,labelsep=0cm,align=left,itemsep = 0cm]
+% \item \hangbibentry{bontrager2018genetic}
+% \item \hangbibentry{bontrager2018geographic}
+% \end{enumerate}
+\egroup
+\bigskip
 
 %%% Publications %%%
 
+\bgroup
 \noindent\Large{Publications}  
 \normalsize
 \bigskip
 
-\bgroup
 \def\arraystretch{1.2}
 \noindent \begin{tabular}{@{} p{1cm} >{\raggedright\arraybackslash}p{15.11cm}}
 7. & \textbf{M. Bontrager} and A. L. Angert (2018). Gene flow improves fitness at a range edge under climate change. Evolution Letters. Early view: https://doi.org/10.1002/evl3.91. \\
 6. & D. E. Gamble, \textbf{M. Bontrager}, and A. L. Angert (2016). Floral trait variation and links to climate in the mixed-mating annual \textit{Clarkia pulchella}. Botany, 96(7):425–435. \\
 5. & \textbf{M. Bontrager} and A. L. Angert (2016). Effects of range-wide variation in climate and isolation on floral traits and reproductive output of \textit{Clarkia pulchella}. American Journal of Botany, 103(1):10–21.  \\
 4. & J. A. Lee-Yaw, H. M. Kharouba, \textbf{M. Bontrager}, C. Mahony, A. M. Cserg{\H{o}}, A. M. Noreen, Q. Li, R. Schuster, and A. L. Angert (2016). A synthesis of transplant experiments and ecological niche models suggests that range limits are often niche limits. Ecology Letters, 19(6):710–722. \\
-3. & I. M. Parker, M. Saunders, \textbf{M. Bontrager}, A. P. Weitz, R. Hendricks, R. Magarey, K. Suiter, and G. S. Gilbert (2015). Phylogenetic structure and host abundance drive disease pressure in communities. Nature, 520(7548):542. \\
+3. & I. M. Parker, M. Saunders, \textbf{M. Bontrager}, A. P. Weitz, R. Hendricks, R. Magarey, K. Suiter, and G. S. Gilbert (2015). Phylogenetic structure and host abundance drive disease pressure in communities. Nature, 520(7548):542-544. \\
 2. & \textbf{M. Bontrager}, K. Webster, M. Elvin, and I. M. Parker (2014). The effects of habitat and competitive/facilitative interactions on reintroduction success of the endangered wetland herb, \textit{Arenaria paludicola}. Plant Ecology, 215(4):467–478. \\
 1. & J. M. Yost, \textbf{M. Bontrager}, S. W. McCabe, D. Burton, M. G. Simpson, K. M. Kay, and M. Ritter (2013). Phylogenetic relationships and evolution in \textit{Dudleya} (Crassulaceae). Systematic Botany, 38(4): 1096–1104. \\
 \end{tabular}
@@ -153,11 +182,11 @@ Department of Evolution and Ecology & \\
 
 %%% Non-refereed contributions %%%
 
+\bgroup
 \noindent\Large{Non-refereed contributions}  
 \normalsize
 \bigskip
 
-\bgroup
 \def\arraystretch{1.2}
 \noindent \begin{tabular}{@{} p{1cm} >{\raggedright\arraybackslash}p{15.11cm}}
 3. & K. R. Acierto, R. S. Hendricks, \textbf{M. Bontrager}, and I.M. Parker (12 December 2012). Transplant success for the endangered herb \textit{Arenaria paludicola} at Golden Gate National Recreation Area: effects of site, propagation type, and competition. Technical report to the U.S. Fish and Wildlife Service and the California Department of Fish and Game. \\
@@ -168,39 +197,38 @@ Department of Evolution and Ecology & \\
 \bigskip
 \bigskip
 
+\newpage
 
-%%% Ongoing projects %%%
-
-% \noindent\Large{Ongoing projects}  
-% \bigskip
-% \bigskip
 
 
 %%% Fellowships and awards %%%
 
+\bgroup
+\noindent\Large{Fellowships and awards}
+\bigskip
+
 \normalsize
-\noindent \begin{tabular}{@{} p{3cm} >{\raggedright\arraybackslash}p{11.71cm} >{\raggedleft\arraybackslash}p{1.2cm}}
-\Large{Fellowships} & UBC Biology teaching award (500 CAD) & 2018 \\
-\Large{and awards} & Best research presentation, Brackendale Ecology and Evolution & 2016 \\
- & Retreat & \\
- & Li Tze Fong Memorial Fellowship (25000 CAD) & 2016 \\
- & Botanical Society of America Genetics Section Grad Research Award (500 USD) & 2016 \\
- & Botanical Society of America Graduate Student Research Award (500 USD) & 2016 \\
- & Washington Native Plant Society Research Grant (1200 USD) & 2016 \\
- & Vladimir J. Krajina Prize in Plant Ecology (2000 CAD) & 2013 \\
- & UBC Four Year Doctoral Fellowship (102400 CAD) & 2012 \\
+\noindent \begin{tabular}{@{} >{\raggedright\arraybackslash}p{14.91cm} >{\raggedleft\arraybackslash}p{1.2cm}}
+UBC Biology teaching award (500 CAD) & 2018 \\
+Best research presentation, Brackendale Ecology and Evolution Retreat & 2016 \\
+Li Tze Fong Memorial Fellowship (25000 CAD) & 2016 \\
+Botanical Society of America Genetics Section Grad Research Award (500 USD) & 2016 \\
+Botanical Society of America Graduate Student Research Award (500 USD) & 2016 \\
+Washington Native Plant Society Research Grant (1200 USD) & 2016 \\
+Vladimir J. Krajina Prize in Plant Ecology (2000 CAD) & 2013 \\
+UBC Four Year Doctoral Fellowship (102400 CAD) & 2012 \\
 \end{tabular}
+\egroup
 \bigskip
 \bigskip
  
 
 %%% Selected presentations %%%
-
+\bgroup
 \noindent\Large{Selected presentations}  
 \normalsize
 \bigskip
 
-\bgroup
 \def\arraystretch{1.2}
 \noindent \begin{tabular}{@{} >{\raggedright\arraybackslash}p{16.51cm}}
 \textbf{M. Bontrager}$^{*}$, C.R. Mahony, D.E. Gamble, R.M. Germain, A.L. Hargreaves, E.J. Kleynhans, C.S. Leven, K.A. Thompson, and A.L. Angert. (6 January 2018) Climate anomalies drive local maladaptation. Presentation at the American Society of Naturalists meeting, Asilomar, California. \\
@@ -219,20 +247,26 @@ J. Yost, \textbf{M. Bontrager}$^{*}$, S. McCabe, K.M. Kay, and M. Ritter. (11 Ju
 \bigskip
 \bigskip
 
-
+\newpage
 
 %%% Professional experience %%%
+\bgroup
+\noindent\Large{Professional experience}  
+\normalsize
+\bigskip
 
 \normalsize
-\noindent \begin{tabular}{@{} p{3cm} p{11.21cm} >{\raggedleft\arraybackslash}p{1.7cm}}
-\Large{Professional} & \textbf{Staff research associate} & 2011--2012 \\
-\Large{experience} &  Supervisors: Ingrid Parker and Greg Gilbert & \\
- & Trained and led crews in the field, greenhouse, and molecular biology lab. Designed greenhouse experiments and field monitoring protocols. & \\
- & \textbf{Research assistant} & 2010--2011 \\
- &  Supervisors: Ingrid Parker, Kathleen Kay, and Jenn Yost & \\
- & Developed and performed molecular protocols and greenhouse experiments.
-Assisted with field experiments. & \\
+\noindent \begin{tabular}{@{} >{\raggedright\arraybackslash}p{14.41cm} >{\raggedleft\arraybackslash}p{1.7cm}}
+\textbf{Staff research associate} & 2011--2012 \\
+ Supervisors: Ingrid Parker and Greg Gilbert & \\
+ Trained and led crews in the field, greenhouse, and molecular biology lab. Designed greenhouse experiments and field monitoring protocols. & \\
+ & \\
+ \textbf{Undergraduate research assistant} & 2010--2011 \\
+ Supervisors: Ingrid Parker, Kathleen Kay, and Jenn Yost & \\
+ Developed and performed molecular protocols and greenhouse experiments.
+ Assisted with field experiments. & \\
 \end{tabular}
+\egroup
 \bigskip
 \bigskip
 
@@ -252,57 +286,73 @@ Assisted with field experiments. & \\
 
 
 %%% Mentoring and teaching %%%
+\bgroup
+\noindent\Large{Mentoring and teaching}  
+\normalsize
+\bigskip
 
-\noindent \begin{tabular}{@{} p{3cm} p{11.21cm} >{\raggedleft\arraybackslash}p{1.7cm}}
-\Large{Mentoring} & Head teaching assistant, Biostatistics & 2017--2018 \\
-\Large{and} &  Teaching assistant, Plant Ecology & 2017 \\
-\Large{teaching}  & Teaching assistant, Phytogeography & 2016 \\
- & Advisor to undergraduate honours thesis student & 2016--2017 \\
- & Supervisor of undergraduate research volunteers & 2014--2017\\
+\noindent \begin{tabular}{@{} >{\raggedright\arraybackslash}p{14.41cm} >{\raggedleft\arraybackslash}p{1.7cm}}
+ Advisor to undergraduate thesis students & 2018--2019 \\
+ Leader of R workshop for undergraduate research assistants & 2018 \\
+ Head teaching assistant, Biostatistics & 2017--2018 \\
+ Teaching assistant, Plant Ecology & 2017 \\
+ Teaching assistant, Phytogeography & 2016 \\
+ Advisor to undergraduate honours thesis student & 2016--2017 \\
+ Supervisor of undergraduate research volunteers & 2014--2017\\
 \end{tabular}
+\egroup
 \bigskip
 \bigskip
 
 
 %%% Service and outreach %%%
+\bgroup
+\noindent\Large{Service and outreach}  
+\normalsize
+\bigskip
 
-\noindent \begin{tabular}{@{} p{3cm} >{\raggedright\arraybackslash}p{11.21cm} >{\raggedleft\arraybackslash}p{1.7cm}}
-\Large{Service} & Grad representative, Biodiversity Research Centre postdoc search & 2018 \\
-\Large{and} & committee & \\
-\Large{outreach} & Co-organizer of Biodiversity Centre Women in STEM Workshop & 2017 \\
- & Coordinator of Florum, a weekly meeting of UBC plant ecologists & 2013--2016 \\
- & Modules in Ecology and Evolution Development, curriculum developer & 2013--2015 \\
- & UBC Let’s Talk Science, visiting scientist in primary school & 2012--2014 \\
- & UBC Let's Talk Science, science fair mentor & 2012--2013 \\
- & Beaty Biodiversity Museum Nature Club, volunteer & 2012--2013 \\
+\noindent \begin{tabular}{@{} >{\raggedright\arraybackslash}p{14.41cm} >{\raggedleft\arraybackslash}p{1.7cm}}
+ Grad representative, Biodiversity Research Centre postdoc search committee & 2018 \\
+ Co-organizer of Biodiversity Centre Women in STEM Workshop & 2017 \\
+ Coordinator of Florum, a weekly meeting of UBC plant ecologists & 2013--2016 \\
+ Modules in Ecology and Evolution Development, curriculum developer & 2013--2015 \\
+ UBC Let’s Talk Science, visiting scientist in primary school & 2012--2014 \\
+ UBC Let's Talk Science, science fair mentor & 2012--2013 \\
+ Beaty Biodiversity Museum Nature Club, volunteer & 2012--2013 \\
 \end{tabular}
+\egroup
 \bigskip
 \bigskip
 
 
 %%% Selected graduate courses %%%
 
-\noindent \begin{tabular}{@{} p{3cm} p{11.21cm} >{\raggedleft\arraybackslash}p{1.7cm}}
-\Large{Selected} & Bioinformatics for evolutionary biology (Greg Owens, Kay Hodgins) & 2016 \\
-\Large{graduate} & Data management for biologists (Andrew MacDonald) & 2016 \\
-\Large{courses}  & Population ecology (Amy Angert) & 2015 \\
- & Species distribution modelling (Tom Edwards) & 2014 \\
- & Data analysis in R (Thor Veen) & 2013 \\
- & Population genetics (Michael Whitlock) & 2012 \\
-\end{tabular}
-\bigskip
-\bigskip
+% \noindent \begin{tabular}{@{} p{3cm} p{11.21cm} >{\raggedleft\arraybackslash}p{1.7cm}}
+% \Large{Selected} & Bioinformatics for evolutionary biology (Greg Owens, Kay Hodgins) & 2016 \\
+% \Large{graduate} & Data management for biologists (Andrew MacDonald) & 2016 \\
+% \Large{courses}  & Population ecology (Amy Angert) & 2015 \\
+%  & Species distribution modelling (Tom Edwards) & 2014 \\
+%  & Data analysis in R (Thor Veen) & 2013 \\
+%  & Population genetics (Michael Whitlock) & 2012 \\
+% \end{tabular}
+% \bigskip
+% \bigskip
 
 
 %%% Professional memberships %%%
+\bgroup
+\noindent\Large{Professional memberships}  
+\normalsize
+\bigskip
 
-\noindent \begin{tabular}{@{} p{3cm} p{13.11cm}}
-\Large{Professional} & American Society of Naturalists \\
-\Large{memberships} & Botanical Society of America \\
- & Canadian Society for Ecology and Evolution \\
- & Society for the Study of Evolution \\
- & Washington Native Plant Society \\
+\noindent \begin{tabular}{@{} p{13.11cm}}
+ American Society of Naturalists \\
+ Botanical Society of America \\
+ Canadian Society for Ecology and Evolution \\
+ Society for the Study of Evolution \\
+ Washington Native Plant Society \\
 \end{tabular}
+\egroup
 \bigskip
 \bigskip
 
